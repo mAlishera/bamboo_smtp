@@ -25,7 +25,7 @@ defmodule BambooSmtp.Mixfile do
 
   defp deps do
     [
-      {:bamboo, "~> 0.7.0"},
+      {:bamboo, git: "https://github.com/mAlishera/bamboo"},
       {:dogma, "~> 0.1", only: [:dev, :test]},
       {:earmark, ">= 1.0.1", only: :dev},
       {:ex_doc, "~> 0.13.0", only: :dev},
